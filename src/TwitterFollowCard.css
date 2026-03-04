@@ -3,6 +3,8 @@
     align-items: center;
     color:#fff;
     font-size: .8em;
+    justify-content: space-between;
+    margin-bottom: 16px;
 }
 
 .tw-followCard-header {

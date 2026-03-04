@@ -2,11 +2,11 @@ import TwitterFollowCard from "./TwitterFollowCard"
 import React from "react"
 function App(){
     return (
-        <React.Fragment>
-            <TwitterFollowCard nombre = 'Juanito juanolo' avatar='myAvatar' />
-            <TwitterFollowCard nombre = 'Antonio toni' avatar='myAvatar3' />
-            <TwitterFollowCard nombre = 'Manolo manuel' avatar='myAvatar2' />
-        </React.Fragment>
+        <>
+            <TwitterFollowCard name = 'Juanito juanolo' userName='@Juaniju' avatar='myAvatar' />
+            <TwitterFollowCard name = 'Antonio tonis' userName='@antoto' avatar='myAvatar3' />
+            <TwitterFollowCard name = 'Manolo manuel' userName='@maelma' avatar='myAvatar2' />
+        </>
         
     )
 }
