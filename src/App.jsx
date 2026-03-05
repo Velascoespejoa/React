@@ -3,11 +3,16 @@ import React from "react"
 function App(){
     return (
         <>
-            <TwitterFollowCard name = 'Juanito juanolo' userName='@Juaniju' avatar='myAvatar' />
-            <TwitterFollowCard name = 'Antonio tonis' userName='@antoto' avatar='myAvatar3' />
-            <TwitterFollowCard name = 'Manolo manuel' userName='@maelma' avatar='myAvatar2' />
-        </>
-        
+            <TwitterFollowCard inicialIsFollowing userName='@Juaniju' avatar='myAvatar'>
+                <strong>Antonio Velasco Espejo</strong>
+            </TwitterFollowCard>
+            <TwitterFollowCard inicialIsFollowing={false} userName='@antoto' avatar='myAvatar3'>
+                <strong>Juanito juan juanlo</strong>
+            </TwitterFollowCard>
+            <TwitterFollowCard inicialIsFollowing avatar='myAvatar2'>
+                <strong>rodolfo rolf adolf</strong>
+            </TwitterFollowCard>
+        </>        
     )
 }
 export default App
